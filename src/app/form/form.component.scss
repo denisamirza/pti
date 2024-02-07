@@ -1,0 +1,25 @@
+input, select{
+    border-radius: 15px;
+    height: 30px;
+    max-width: 400px;
+    width: 78vw;
+    border: 3px solid rgb(174, 174, 174);
+}
+
+select {
+    height: 34px;
+    width: 80vw;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    margin-top: 10px;
+    top: 45vh;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+h2 {
+    font-size: 3vh;
+}

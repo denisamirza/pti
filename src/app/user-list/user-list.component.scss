@@ -1,0 +1,53 @@
+.user {
+    position: relative;
+    margin: auto;
+    width: 95vw;
+    max-width: 600px;
+    height: 140px;
+    margin-bottom: 10px;
+    background-color: rgb(225, 223, 223);
+    border-radius: 20px;
+    border: none;
+}
+
+.center {
+    margin: 0;
+    margin-top: 10vh;
+}
+
+.userInfo, .left, .right{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-width: 40vw;
+}
+
+.right {
+    right: 25px;
+}
+
+.left {
+    padding-left: 15px;
+}
+
+.userInfo {
+    padding-left: 90px;
+}
+
+.left img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+.right img {
+    height: 20px;
+    padding-left: 30px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+

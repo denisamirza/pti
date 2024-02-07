@@ -1,0 +1,14 @@
+header {
+    position: fixed;
+    height: 7vh;
+    width: 100vw;
+    background-color: rgb(136, 0, 255);
+    top: 0px;
+    z-index: 1000;
+}
+
+button {
+    margin: 1.6vh 2vh 2vh 5vh;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
